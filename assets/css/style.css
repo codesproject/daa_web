@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic.eot');
+    src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CenturyGothic.woff2') format('woff2'),
+         url('../fonts/CenturyGothic.ttf') format('truetype'),
+        url('../fonts/CenturyGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.msp-preset-btn-192 {
+        /* background-color: #fff; */
+    color: #fff;
+    border: 1px solid #8aaad8;
+}
+
+.msp-preset-btn-192:hover {
+  /*  background-color: #f9f9f9 */
+}
+
+.msp-preset-btn-192:active {
+    top: 1px
+}
+
+.htRed {
+    font-family: 'Century Gothic';
+    color: #CA3A3A;
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+
+.msp-cn-163-1 {
+    font-family: 'Century Gothic';
+    font-weight: normal;
+   font-weight: 100;
+    font-size: 36px !important;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.smText {
+    font-size: 17px;
+    line-height: 27px;
+    display: block;
+    font-weight: 300;
+    letter-spacing: .015em;
+}
+
+.msp-cn-163-2 {
+    font-weight: normal;
+    font-size: 33px !important;
+    line-height: normal;
+    color: #ffffff;
+    text-align: left;
+    background: #000000c9;
+    padding: 15px !important;
+    width: 90% !important;
+    
+}
+
+.msp-preset-btn-192 a{ 
+    text-decoration: none;
+}
+
+.msp-preset-btn-192 a:hover{ 
+    text-decoration: none;
+}
+
+.master-slider a, .master-slider a:hover {
+   
+    text-decoration: none;
+        color: #e7faff;
+}
+
+.msp-cn-163-3 {
+       
+    font-weight: normal;
+    font-size: 33px !important;
+    line-height: normal;
+    color: #ffffff;
+    text-align: left;
+    
+}
+
+.msp-cn-163-4 {
+   /* font-family: "Roboto";*/
+    font-weight: 500;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.msp-cn-163-5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 33px !important;
+    line-height: normal;
+    color: #ffffff;
+	text-align: left;
+}
+
+.msp-cn-163-6 {
+   /* font-family: "Roboto";*/
+    font-weight: 500;
+    font-size: 12px;
+    line-height: normal;
+}
+
+/*
+
+@media (max-width:855px) {
+	.ms-view.ms-wave-view.ms-grab-cursor {
+    height: 500px !important;
+}
+	.ms-layer-mask {
+    width: 85% !important;
+    top: 85px !important;
+}
+	.ms-btn-container {
+    top: 40% !important;
+    width: 100px !important;
+}
+	a.ms-layer.msp-cn-163-2.ms-btn.ms-btn-circle.ms-btn-n.msp-preset-btn-192.ms-action-layer {
+    width: 100% !important;
+    font-size: .85em !important;
+}
+
+	} */
+
+@media  (max-width:700px){
+	.msp-cn-163-1, .msp-cn-163-3, .msp-cn-163-5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 22px !important;
+    line-height: normal;
+    
+}		
+		}
+
+@media  (max-width:550px){
+	.msp-cn-163-1, .msp-cn-163-3, .msp-cn-163-5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 18px !important;
+    line-height: normal;
+    
+}		
+		}
+
+
+.g-pt-90.g-pb-90 {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 4.42857rem !important;
+    
+    
+}
+
+@media (max-width: 385px) {
+    
+    .u-heading-v6-2 .u-heading-v6__title, h6.g-font-size-12.g-pl-90 {
+    padding-left: 3.42857rem !important;
+}
+    .u-heading-v6-1.u-heading-v6__title::after { 
+    width: 2rem !important;
+}
+    
+    .u-heading-v6-1 .u-heading-v6__title::after, .u-heading-v6-1.text-center .u-heading-v6__title::before, .u-heading-v6-1.text-right .u-heading-v6__title::before, .u-heading-v6-2 .u-heading-v6__title::after, .u-heading-v6-2.text-center .u-heading-v6__title::before, .u-heading-v6-2.text-right .u-heading-v6__title::before {
+         width: 2rem !important;
+        
+    }
+    
+    .g-pt-90.g-pb-90 {
+    width: 85%;
+    margin: auto;
+}
+
+    }
+
+
+
+.text-center.bgShdw {
+    box-shadow: 0px 2px 7px 0px #c2c2c2;
+    border-radius: 2px;
+    padding: 10px;
+    background-image: -moz-linear-gradient( 90deg, rgb(243,243,243) 0%, rgb(255,255,255) 92%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(243,243,243) 0%, rgb(255,255,255) 92%);
+  background-image: -ms-linear-gradient( 90deg, rgb(243,243,243) 0%, rgb(255,255,255) 92%);
+    margin: 0 7%;
+    transition: all .5s;
+    cursor: pointer;
+ 
+}
+
+
+.text-center.bgShdw:hover {
+    opacity: .85;
+    transform: scale(1.1,1.1);
+}
+
+h3.h5.g-color-black.text-uppercase.mb-3 {
+        font-weight: bold !important;
+    font-size: 1.00rem;
+    letter-spacing: 0.05em;
+    color: #676767 !important;
+}
+
+span.lineColor {
+    border-bottom: 1px solid #ca3030b3;
+    padding-bottom: 4px;
+}
+
