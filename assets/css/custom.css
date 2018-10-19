@@ -137,3 +137,10 @@ address.g-bg-no-repeat.g-font-size-12.mb-0 {
 	display: flex;
     justify-content: center;
 }
+
+p.lead.mb-1 {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #7b7b7b;
+}
