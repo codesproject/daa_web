@@ -191,6 +191,11 @@
         line-height: normal;
         text-shadow: 2px 2px 1px #121212;
     }
+
+    .ms-slide.border-shader .ms-layer-mask {
+        width: 70% !important;
+    }
+
     .ms-layer-mask {
         width: 350px !important;
     }
@@ -226,6 +231,14 @@
     }
 
 }
+
+@media (max-width:550px) {
+
+    .ms-slide.border-shader .ms-layer-mask {
+    width: 90% !important;
+}
+    
+    }
 
 
 .g-pt-90.g-pb-90 {
