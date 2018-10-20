@@ -133,11 +133,11 @@
 
     .msp-cn-163-2 {
         font-size: 28px !important;
-        width: 100% !important;
+        width: 510px !important;
     }
 
     .ms-slide.border-shader .ms-layer-mask {
-        width: 60% !important;
+        width: 70% !important;
         left: 0px !important;
     }
 
@@ -169,14 +169,17 @@
     }
 }
 
-@media (max-width: 690px) .ms-slide.border-shader .ms-layer-mask {
+@media (max-width: 690px) {
+    
+    .ms-slide.border-shader .ms-layer-mask {
     width: 80% !important;
     left: 0px !important;
 }
-
-.msp-cn-163-2 {
+    .msp-cn-163-2 {
     font-size: 22px !important;
-    width: 100% !important;
+    width: 400px !important;
+}
+
 }
 
 @media (max-width:550px) {
@@ -227,7 +230,7 @@
         text-align: left;
         background: #000000c9;
         padding: 15px !important;
-        width: 100vw !important;
+      /*  width: 100vw !important;*/
     }
 
 }
