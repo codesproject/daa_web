@@ -2815,12 +2815,12 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
 /* Button Primary */
 .u-btn-primary {
   color: #fff;
-  background-color: #289eb0;
+  background-color: #b31919;
 }
 
 .u-btn-primary:hover, .u-btn-primary.active {
-  border-color: #729CDF;
-  background-color: #3F7EE0;
+  border-color: #b31919;
+  background-color: #b31919;
 }
 
 .u-btn-primary:hover, .u-btn-primary:focus, .u-btn-primary.active {
@@ -28035,24 +28035,24 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .g-brd-primary--before::before {
-  border-color: #72c02c !important;
+  border-color: #e48181 !important;
 }
 
 .g-brd-primary--before--active.active::before {
-  border-color: #72c02c !important;
+  border-color: #e48181 !important;
 }
 
 .g-brd-primary--hover:hover, .g-brd-primary--active.active {
-  border-color: #72c02c !important;
+  border-color: #e48181 !important;
 }
 
 .g-brd-primary--active.active,
 .active .g-brd-primary--active {
-  border-color: #72c02c !important;
+  border-color: #e48181 !important;
 }
 
 *:hover > .g-brd-primary--hover-parent {
-  border-color: #72c02c !important;
+  border-color: #e48181 !important;
 }
 
 .g-brd-primary-opacity-0_3 {
@@ -31808,7 +31808,7 @@ pre[class*="language-"] .toolbar-item a {
 
 /* Primary Colors */
 .g-color-primary {
-  color: #249caf !important;
+  color: #c93c3c !important;
 }
 
 .u-block-hover:hover .g-color-primary--hover, .g-color-primary--hover:hover {
