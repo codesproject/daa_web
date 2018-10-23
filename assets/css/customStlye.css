@@ -5020,9 +5020,9 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
 
 /* Outline Button Black */
 .u-btn-outline-black {
-  color: #000;
-  border-color: #000;
-  background-color: transparent;
+  color: #bb4949;
+    border-color: #e87c7c;
+    background-color: transparent;
 }
 
 .u-btn-outline-black:focus, .u-btn-outline-black.active {
@@ -5032,7 +5032,7 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
 
 .u-btn-outline-black:hover {
   color: #fff;
-  background-color: #000;
+    background-color: #a52121;
 }
 
 .u-btn-outline-black.u-btn-hover-v1-1 {
