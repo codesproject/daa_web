@@ -32,7 +32,7 @@ body {
 }
 
 a {
-  color: #72c02c;
+  color: #d24949;
   outline: none;
 }
 
@@ -14210,7 +14210,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 ------------------------------------*/
 .u-heading-v2-4--bottom::after, .u-heading-v2-4--top::before {
   width: 5rem;
-  border-top-width: 10px;
+  border-top-width: 5px;
 }
 
 .u-heading-v2-4--bottom::after {
@@ -25798,7 +25798,7 @@ pre[class*="language-"] .toolbar-item a {
 
 .u-filter-v1 > li:hover,
 .u-filter-v1 [class*="active"] {
-  color: #72c02c;
+  color: #ba3434;
 }
 
 /*--------------------------------------------------
@@ -28031,7 +28031,7 @@ pre[class*="language-"] .toolbar-item a {
 ------------------------------------*/
 /* Primary Colors */
 .g-brd-primary {
-  border-color: #28aacc !important;
+  border-color: #c93c3c !important;
 }
 
 .g-brd-primary--before::before {
@@ -31812,7 +31812,7 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .u-block-hover:hover .g-color-primary--hover, .g-color-primary--hover:hover {
-  color: #259cae !important;
+  color: #b52c2c !important;
 }
 
 .g-parent:hover .g-color-primary--parent-hover {
