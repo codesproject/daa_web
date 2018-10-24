@@ -311,3 +311,10 @@ span.lineColor {
     border-bottom: 1px solid #ca3030b3;
     padding-bottom: 4px;
 }
+
+@media (max-width:550px) { 
+
+    .spacing-cont {
+        width: 82%;
+    }
+}
