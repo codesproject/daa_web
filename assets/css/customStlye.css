@@ -16967,7 +16967,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 }
 
 .u-searchform-v1 .form-control {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Century Gothic';
   font-size: 0.85714rem;
 }
 
@@ -17062,7 +17062,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 }
 
 .u-searchform-v3 .form-control {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Century Gothic';
   font-weight: 300;
   font-size: inherit;
   color: inherit;
@@ -17119,7 +17119,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   Searchform v4
 ------------------------------------*/
 .u-searchform-v4 .form-control {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Century Gothic';
   font-size: 0.85714rem;
   width: 20rem;
   padding: 0.71429rem 2.85714rem 0.71429rem 0.71429rem;
@@ -17184,7 +17184,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 }
 
 .u-searchform-v5 .form-control {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Century Gothic';
   font-size: 0.85714rem;
   text-transform: uppercase;
   color: #777;
@@ -29576,7 +29576,7 @@ pre[class*="language-"] .toolbar-item a {
   Typography Font Family
 ------------------------------------*/
 .g-font-secondary {
-  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  font-family: 'Century Gothic';
 }
 
 .g-font-code {
