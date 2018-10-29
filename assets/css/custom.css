@@ -145,6 +145,29 @@ p.lead.mb-1 {
     color: #7b7b7b;
 }
 
+
+p.lead.mb-2 {
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #7b7b7b;
+}
+
 .fontSize {
     font-size: 1.08rem;
+}
+
+/* not used yet */
+my.style {
+    font-size: .9rem;
+    font-weight: 600;
+    color: #7b7b7b;
+    letter-spacing: .015rem;
+}
+
+.txtAbt {
+   /* font-size: .9em;
+    font-weight: 600;*/
+    letter-spacing: 0.025rem;
+    color: #7f7f7f;
 }
