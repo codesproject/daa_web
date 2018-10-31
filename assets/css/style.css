@@ -318,3 +318,13 @@ span.lineColor {
         width: 82%;
     }
 }
+
+
+@media (max-width: 685px) {
+    
+    .contEmail {
+    font-size: 1rem;
+    line-height: 20px;
+    display: inline-block;
+}
+}
