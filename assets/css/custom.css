@@ -171,3 +171,13 @@ my.style {
     letter-spacing: 0.025rem;
     color: #7f7f7f;
 }
+
+span.contEmail {
+        font-size: 1rem;
+}
+
+span.sliderTxt {
+      font-size: 2.8rem;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+}
