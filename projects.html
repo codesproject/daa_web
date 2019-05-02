@@ -75,9 +75,40 @@
                                 <!-- End Home -->
 
                                 <!-- Pages -->
-                                <li class="nav-item g-mx-10--lg g-mx-15--xl">
-                                    <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="aboutus.html">About</a>
+                                      <li class="hs-has-sub-menu nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                        <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="aboutus.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages">
+                 About</a>
+                               
+                               <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling animated fadeOut" id="nav-submenu-pages" aria-labelledby="nav-link-pages" style="display: none;">
+                               
+                                <!-- Pages - about -->
+                    <li class="dropdown-item">
+                      <a class="nav-link" href="aboutus.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages--about">About Us</a>
+
+                   
+                    </li>
+                    <!-- End Pages - about -->
+                    <!-- Pages - News -->
+                    <li class="dropdown-item">
+                      <a  class="nav-link" href="news.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages--about">News</a>
+
+                   
+                    </li>
+                    <!-- End Pages - News -->
+
+                    <!-- Pages - Careers -->
+                    <li class="dropdown-item">
+                      <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages--portfolio">Careers</a>
+
+                        </li>
+                    <!-- End Pages - Careers -->
+
+                  
+                  </ul>
+                               
+                               
                                 </li>
+
 
                                 <li class="nav-item g-mx-10--lg g-mx-15--xl">
                                     <a class="nav-link g-py-7 g-px-0" href="services.html">Services</a>
@@ -91,7 +122,7 @@
                   </li>
                   
                     <li class="nav-item g-mx-10--lg g-mx-15--xl">
-                    <a href="clients.html" class="nav-link g-py-7 g-px-0">Clients</a>
+                    <a href="client.html" class="nav-link g-py-7 g-px-0">Clients</a>
                   </li>
 
                                 <li class="nav-item g-mx-10--lg g-mx-15--xl">
@@ -146,53 +177,80 @@
           <li class="list-inline-item cbp-filter-item cbp-filter-item-active g-cursor-pointer g-transition-0_2" data-filter="*">ALL</li>
           <li class="list-inline-item cbp-filter-item text-uppercase g-cursor-pointer g-transition-0_2" data-filter=".js-hotel">HOTEL</li>
 
-          <li class="list-inline-item cbp-filter-item text-uppercase g-cursor-pointer g-transition-0_2" data-filter=".js-illustration">RESIDENTIAL     </li>
-          <li class="list-inline-item cbp-filter-item text-uppercase g-cursor-pointer g-transition-0_2" data-filter=".js-design"> SPORTS/RETAIL</li>
-          <li class="list-inline-item cbp-filter-item text-uppercase g-cursor-pointer g-transition-0_2" data-filter=".js-graphic"> COMMERCIAL</li>
-          <li class="list-inline-item cbp-filter-item text-uppercase g-cursor-pointer g-transition-0_2" data-filter=".js-logo">INTERIORS</li>
+          <li class="list-inline-item cbp-filter-item text-uppercase g-cursor-pointer g-transition-0_2" data-filter=".js-illustration">INTERIORS      </li>
+          <li class="list-inline-item cbp-filter-item text-uppercase g-cursor-pointer g-transition-0_2" data-filter=".js-design">COMMERCIAL </li>
+          <li class="list-inline-item cbp-filter-item text-uppercase g-cursor-pointer g-transition-0_2" data-filter=".js-logo">RESIDENTIAL</li>
+          <li class="list-inline-item cbp-filter-item text-uppercase g-cursor-pointer g-transition-0_2" data-filter=".js-graphic">INSTITUTIONAL/INDUSTRIAL </li>
+          
         </ul>
         <!-- End Cubeportfolio Filter -->
 
         <!-- Cubeportfolio container -->
         <div class="cbp" data-controls="#filterControls">
-          <div class="cbp-item js-logo js-hotel">
+          <div class="cbp-item js-hotel">
             <!-- Figure -->
-            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
-              <!-- Figure Image -->
-              <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img13.jpg" alt="Image Description">
-              <!-- End Figure Image-->
-
-              <!-- Figure Caption -->
-              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
-                <h4 class="h6 g-font-weight-500 mb-0">UNIQUE ARCHITECTURE</h4>
-                
-                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13">HOTELS</em>
-              </figcaption>
-              <!-- End Figure Caption-->
-            </figure>
-            <!-- End Figure -->
-          </div>
-
-          <div class="cbp-item js-logo js-hotel">
-            <!-- Figure -->
+            <a href="projects/marriott.html">
             <figure class="u-info-v1-4 g-overflow-hidden mb-0">
               <!-- Figure Image -->
               <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img14.jpg" alt="Image Description">
               <!-- End Figure Image-->
 
-
               <!-- Figure Caption -->
               <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
-                <h4 class="h6 g-font-weight-500 mb-0">UNIQUE ARCHITECTURE</h4>
-                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13">HOTELS</em>
+                <h4 class="h6 g-font-weight-500 mb-0">MARRIOTT HOTEL</h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13">IKEJA</em>
               </figcaption>
               <!-- End Figure Caption-->
             </figure>
+              </a>
             <!-- End Figure -->
           </div>
 
-          <div class="cbp-item js-illustration js-design">
+         <!--
+          <div class="cbp-item js-hotel">
+           
+            <a href="projects/riviera.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              
+              <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img6.jpg" alt="Image Description">
+             
+
+
+             
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">CALABAR RIVIERA CLUB</h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13">CALABAR</em>
+              </figcaption>
+             
+            </figure>
+              </a>
+            
+          </div> -->
+          
+          <div class="cbp-item js-hotel js-illustration">
             <!-- Figure -->
+            <a href="projects/parkinn.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+              <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img5.jpg" alt="Image Description">
+              <!-- End Figure Image-->
+
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">PARK INN HOTEL</h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13">ABEOKUTA</em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+
+          <div class="cbp-item js-hotel">
+            <!-- Figure -->
+              <a href="projects/movenpick.html">
             <figure class="u-info-v1-4 g-overflow-hidden mb-0">
               <!-- Figure Image -->
               <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img15.jpg" alt="">
@@ -201,16 +259,18 @@
               
               <!-- Figure Caption -->
               <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
-                <h4 class="h6 g-font-weight-500 mb-0">UNIQUE ARCHITECTURE</h4>
-                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13">RESIDENTIAL</em>
+                <h4 class="h6 g-font-weight-500 mb-0">QUEEN AMINA GARDEN MOVENPICK HOTEL</h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13">ABUJA</em>
               </figcaption>
               <!-- End Figure Caption-->
             </figure>
-            <!-- End Figure -->
+              </a>
+             <!-- End Figure -->
           </div>
 
-          <div class="cbp-item js-design js-illustration">
+          <div class="cbp-item js-hotel">
             <!-- Figure -->
+            <a href="projects/hyatt.html">
             <figure class="u-info-v1-4 g-overflow-hidden mb-0">
               <!-- Figure Image -->
               <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img16.jpg" alt="Image Description">
@@ -219,16 +279,18 @@
 
               <!-- Figure Caption -->
               <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
-                <h4 class="h6 g-font-weight-500 mb-0">UNIQUE ARCHITECTURE</h4>
-                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13">RESIDENTIAL</em>
+                <h4 class="h6 g-font-weight-500 mb-0">HYATT REGENCY</h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13">NIGERIA</em>
               </figcaption>
               <!-- End Figure Caption-->
             </figure>
+              </a>
             <!-- End Figure -->
           </div>
 
-          <div class="cbp-item js-design js-graphic">
+          <div class="cbp-item js-hotel">
             <!-- Figure -->
+             <a href="projects/calabar_conv.html">
             <figure class="u-info-v1-4 g-overflow-hidden mb-0">
               <!-- Figure Image -->
               <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img9.jpg" alt="Image Description">
@@ -237,32 +299,499 @@
 
               <!-- Figure Caption -->
               <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
-                <h4 class="h6 g-font-weight-500 mb-0">UNIQUE ARCHITECTURE</h4>
-                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> COMMERCIAL</em>
+                <h4 class="h6 g-font-weight-500 mb-0">CALABAR INTERNATIONAL CONVENTION CENTER</h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> CALABAR</em>
               </figcaption>
               <!-- End Figure Caption-->
             </figure>
+              </a>
             <!-- End Figure -->
           </div>
+        <!--
+          <div class="cbp-item js-hotel">
+           
+            <a href="projects/travel_inn.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              
+              <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img10.jpg" alt="Image Description">
+              
 
-          <div class="cbp-item js-illustration js-design js-graphic">
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">TRAVEL INN</h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> ONIRU</em>
+              </figcaption>
+           
+            </figure>
+              </a>
+          </div> -->
+          
+          
+          <div class="cbp-item js-hotel">
             <!-- Figure -->
+            <a href="projects/prop_ibadan.html">
             <figure class="u-info-v1-4 g-overflow-hidden mb-0">
               <!-- Figure Image -->
-              <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img10.jpg" alt="Image Description">
+              <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img11.jpg" alt="Image Description">
               <!-- End Figure Image-->
 
 
               <!-- Figure Caption -->
               <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
-                <h4 class="h6 g-font-weight-500 mb-0">UNIQUE ARCHITECTURE</h4>
-                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> COMMERCIAL</em>
+                <h4 class="h6 g-font-weight-500 mb-0">PROPOSED IBADAN HOTEL </h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> IBADAN</em>
               </figcaption>
               <!-- End Figure Caption-->
             </figure>
+              </a>
             <!-- End Figure -->
           </div>
+          
+            <div class="cbp-item js-hotel">
+            <!-- Figure -->
+            <a href="projects/lfz.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+              <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img17.jpg" alt="Image Description">
+              <!-- End Figure Image-->
+
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">PROPOSED HOTEL DEVELOPMENT </h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> LFZ,IBEJU-LEKKI</em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+          <div class="cbp-item js-hotel">
+            <!-- Figure -->
+            <a href="projects/lekkidev.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+              <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img18.jpg" alt="Image Description">
+              <!-- End Figure Image-->
+
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">PROPOSED HOTEL DEVELOPMENT  </h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> LEKKI</em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+                 <div class="cbp-item js-hotel">
+            <!-- Figure -->
+            <a href="projects/mirage.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+              <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img19.jpg" alt="Image Description">
+              <!-- End Figure Image-->
+
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">PROPOSED MIRAGE HOTEL  </h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> CALABAR</em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+            <div class="cbp-item js-hotel">
+            <!-- Figure -->
+            <a href="projects/mutual_benefit.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+              <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img20.jpg" alt="Image Description">
+              <!-- End Figure Image-->
+
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0"> MUTUAL BENEFITS LIFE ASSURANCE LTD  </h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> IKEJA, LAGOS STATE</em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+          
+                <div class="cbp-item js-hotel js-illustration">
+            <!-- Figure -->
+            <a href="projects/four_points.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img21.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0"> FOUR POINTS HOTEL AND CONFERENCE CENTRE  </h4>
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> IBADAN </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+           <div class="cbp-item js-hotel">
+            <!-- Figure -->
+            <a href="projects/aero.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img22.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0"> AERO MARINE HOTEL</h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> LAGOS </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+          <div class="cbp-item js-hotel js-illustration">
+            <!-- Figure -->
+            <a href="projects/ibis.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img23.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0"> IBIS HOTEL
+</h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> IKEJA </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+           <div class="cbp-item js-hotel">
+            <!-- Figure -->
+            <a href="projects/port_hotel.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img24.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0"> PORT HARCOURT HOTEL
+
+</h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> PORT HARCOURT </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+           <div class="cbp-item js-hotel">
+            <!-- Figure -->
+            <a href="projects/the_one.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img25.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0"> THE ONE
+
+
+</h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> ABUJA </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+          
+          <div class="cbp-item js-hotel">
+            <!-- Figure -->
+            <a href="projects/water_park.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img26.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">
+                 PRAISES HOTELS AND WATER PARKS </h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> ABUJA </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+          
+              <div class="cbp-item js-hotel js-illustration">
+            <!-- Figure -->
+            <a href="projects/golden_tulip.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img27.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">
+                 GOLDEN TULIP FESTAC HOTEL </h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> LAGOS </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+          
+          <div class="cbp-item js-hotel">
+            <!-- Figure -->
+            <a href="projects/parkinn_ikeja.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img28.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">
+                 PARK INN HOTEL </h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> IKEJA </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+     
+               <div class="cbp-item js-hotel">
+            <!-- Figure -->
+            <a href="projects/golden_inn.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img29.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">
+                 GARDEN INN HOTEL </h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> OWERRI </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+          
+          
+           <div class="cbp-item js-hotel">
+            <!-- Figure -->
+            <a href="projects/hawthorn.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/img30.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">
+                 HAWTHORN SUITES BY WYNDHAM </h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> LEKKI </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+     
+              <div class="cbp-item js-illustration">
+            <!-- Figure -->
+            <a href="projects/aca.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/interior/img1.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">
+                 AFRICAN CAPITAL ALLIANCE HEAD OFFICE  </h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> LAGOS </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+     
+         
+            <div class="cbp-item js-illustration">
+            <!-- Figure -->
+            <a href="projects/pau.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/interior/img2.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">
+                 PAN AFRICAN UNIVERSITY
+EXECUTIVE RESIDENCES  </h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> LEKKI </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+     
+           <div class="cbp-item js-design">
+            <!-- Figure -->
+            <a href="projects/fbn.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/commercial/img1.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">
+                 FBN CAPITAL HEAD OFFICE
+ </h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> LAGOS </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+     
+           <div class="cbp-item js-design">
+            <!-- Figure -->
+            <a href="projects/adamore.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/commercial/img2.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">
+                 ADAMORE PLAZA
+
+ </h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> LAGOS </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+     
+         
+         
+             <div class="cbp-item js-logo">
+            <!-- Figure -->
+            <a href="projects/lekan_s.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/residential/img1.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">
+                 LEKAN SALAMI ESTATE
+
+
+ </h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> IBADAN </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+     
+         
+           <div class="cbp-item js-logo">
+            <!-- Figure -->
+            <a href="projects/1004.html">
+            <figure class="u-info-v1-4 g-overflow-hidden mb-0">
+              <!-- Figure Image -->
+             <img class="w-100 u-info-v1-4__item-regular g-transition-0_2" src="assets/img/400x270/residential/img2.jpg" alt="">
+              <!-- End Figure Image-->
+
+              <!-- Figure Caption -->
+              <figcaption class="u-info-v1-4__item-hidden g-transition-0_2 g-bg-black g-color-white g-px-30 g-py-10">
+                <h4 class="h6 g-font-weight-500 mb-0">
+                 1004 ESTATES REDEVELOPMENT
+
+
+
+ </h4>
+                
+                <em class="d-block g-color-white-opacity-0_8 g-font-style-normal g-font-size-13"> LAGOS </em>
+              </figcaption>
+              <!-- End Figure Caption-->
+            </figure>
+              </a>
+            <!-- End Figure -->
+          </div>
+     
+          
+          
+         
+          
+          
+          
+          
         </div>
+        
+        
         <!-- End Cubeportfolio container -->
       </section>
       <!-- End Cubeportfolio -->

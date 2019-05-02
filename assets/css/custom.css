@@ -173,13 +173,22 @@ my.style {
 }
 
 .contEmail {
-        font-size: 1rem;
-        line-height: 23px;
+        font-size: .93rem;
+    line-height: 23px;
 }
 
 .sliderTxt {
-      font-size: 2.8rem;
+      font-size: 2.6rem;
     /* text-transform: uppercase; */
     font-weight: 600;
     line-height: 45px;
+}
+
+h4.h6.g-font-weight-500.mb-0 {
+    font-size: .91rem;
+}
+
+li.dropdown-item {
+    font-size: .89em;
+    font-weight: 500;
 }

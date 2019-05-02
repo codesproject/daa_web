@@ -54,7 +54,7 @@
     line-height: normal;
     color: #ffffff;
     text-align: left;
-    background: hsla(0, 0%, 0%, 0.79);
+    background: hsla(0, 0%, 0%, 0.49);
     padding: 25px 15px !important;
     width: 90% !important;
 
@@ -328,3 +328,20 @@ span.lineColor {
     display: inline-block;
 }
 }
+
+a.btn.btn-md.u-btn-primary.g-font-weight-600.g-font-size-default.text-uppercase {
+    background: transparent;
+    color: #424242;
+    text-decoration: underline;
+    font-size: .95rem !important;
+    padding: 0;
+}
+
+a.btn.btn-md.u-btn-primary.g-font-weight-600.g-font-size-default.text-uppercase:hover {
+    border: none;
+}
+
+a.btn.btn-md.u-btn-primary.g-font-weight-600.g-font-size-default.text-uppercase::before {
+   content: "<< ";
+}
+

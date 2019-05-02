@@ -82,10 +82,38 @@
                   <!-- End Home -->
 
                   <!-- Pages -->
-                  <li class="nav-item g-mx-10--lg g-mx-15--xl">
-                <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="aboutus.html">
-                 About</a>                
-                  </li>
+                         <li class="hs-has-sub-menu nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                        <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="aboutus.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages">
+                 About</a>
+                               
+                               <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling animated fadeOut" id="nav-submenu-pages" aria-labelledby="nav-link-pages" style="display: none;">
+                               
+                                <!-- Pages - about -->
+                    <li class="dropdown-item">
+                      <a class="nav-link" href="aboutus.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages--about">About Us</a>
+
+                   
+                    </li>
+                    <!-- End Pages - about -->
+                    <!-- Pages - News -->
+                    <li class="dropdown-item">
+                      <a  class="nav-link" href="news.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages--about">News</a>
+
+                   
+                    </li>
+                    <!-- End Pages - News -->
+
+                    <!-- Pages - Careers -->
+                    <li class="dropdown-item">
+                      <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages--portfolio">Careers</a>
+
+                        </li>
+                    <!-- End Pages - Careers -->
+
+                  
+                  </ul>
+                            </li>
+
               
                   <li class="nav-item g-mx-10--lg g-mx-15--xl">
                     <a class="nav-link g-py-7 g-px-0" href="services.html">Services</a>
@@ -98,11 +126,11 @@
                   </li>
                   
                     <li class="nav-item g-mx-10--lg g-mx-15--xl">
-                    <a href="clients.html" class="nav-link g-py-7 g-px-0">Clients</a>
+                    <a href="client.html" class="nav-link g-py-7 g-px-0">Clients</a>
                   </li>
                   
                   <li class="nav-item g-mx-10--lg g-mx-15--xl">
-                    <a class="nav-link g-py-7 g-px-0" href="contact.html">Contact</a>
+                    <a class="nav-link g-py-7 g-px-0" href="#">Contact</a>
                     
                   </li>
                   
@@ -127,7 +155,7 @@
         <!-- Promo Block Content -->
         <div class="container g-color-white text-center g-pt-150 g-pb-150">
      
-          <h2 class="g-font-weight-700 g-font-size-80 text-uppercase">Let's Talk</h2>
+          <h2 class="h1 g-font-weight-600 text-uppercase mb-2">Contact DAA</h2>
         </div>
         <!-- Promo Block Content -->
       </section>
@@ -173,7 +201,7 @@
                 <i class="icon-communication-154 u-line-icon-pro"></i>
               </span>
               <h4 class="h5 g-font-weight-600 g-mb-5">Email</h4>
-              <span class="d-block"> daa@daaconsultants.com</span>
+              <span class="d-block"> dadebo@daaconsultants.com</span>
             <span class="d-block">  daalg@aol.com</span>
             <span class="d-block">  daaarchitects@yahoo.com</span>
             </div>
@@ -182,19 +210,7 @@
         </div>
         <!-- End Icon Blocks -->
         
-        
-        <section class="maps g-py-50">
-            <div class="mapsLocation">
-               
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.1840966929251!2d3.4204867291561847!3d6.427903599709346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf52d63747605%3A0xdfa46fb039d1367d!2s8+Eletu+Ogabi+St%2C+Victoria+Island%2C+Lagos!5e0!3m2!1sen!2sng!4v1540842603808" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-                
-                
-                
-            </div>
-        </section>
-        
-
-        <div class="g-py-100">
+             <div class="g-py-100">
           <div class="row justify-content-center">
             <div class="col-lg-9">
               <h3 class="g-font-weight-300 text-center mb-5">How can we help?</h3>
@@ -202,27 +218,27 @@
                 <div class="row g-font-weight-600">
                   <div class="col-md-6 form-group g-mb-20">
                     <label class="g-color-gray-dark-v2 g-font-size-13">Name</label>
-                    <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover rounded-3 g-py-13 g-px-15" type="text">
+                    <input class="form-control g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover rounded-3 g-py-13 g-px-15" type="text" required>
                   </div>
 
                   <div class="col-md-6 form-group g-mb-20">
                   <label class="g-color-gray-dark-v2 g-font-size-13">Email</label>
-                    <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover rounded-3 g-py-13 g-px-15" type="email">
+                    <input class="form-control g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover rounded-3 g-py-13 g-px-15" type="email" required>
                   </div>
 
                   <div class="col-md-6 form-group g-mb-20">
                     <label class="g-color-gray-dark-v2 g-font-size-13">Subject</label>
-                    <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover rounded-3 g-py-13 g-px-15" type="text">
+                    <input class="form-control g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover rounded-3 g-py-13 g-px-15" type="text" required>
                   </div>
 
                   <div class="col-md-6 form-group g-mb-20">
                     <label class="g-color-gray-dark-v2 g-font-size-13">Phone</label>
-                    <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover rounded-3 g-py-13 g-px-15" type="tel">
+                    <input class="form-control g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover rounded-3 g-py-13 g-px-15" type="tel" required>
                   </div>
 
                   <div class="col-md-12 form-group g-mb-40">
                     <label class="g-color-gray-dark-v2 g-font-size-13">Message</label>
-                    <textarea class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover g-resize-none rounded-3 g-py-13 g-px-15" rows="7"></textarea>
+                    <textarea class="form-control g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover g-resize-none rounded-3 g-py-13 g-px-15" rows="7" required></textarea>
                   </div>
                 </div>
 
@@ -233,7 +249,23 @@
             </div>
           </div>
         </div>
-      </section>
+    
+        
+        
+        <section class="maps g-py-50">
+            <div class="mapsLocation">
+               
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1178.7226539770172!2d3.4211568927340266!3d6.428130579524955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf532a03b0091%3A0x26b4029399ea96f3!2sDAA+Architects+Limited!5e0!3m2!1sen!2sng!4v1542804245380" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                
+                
+                
+            </div>
+        </section>
+        
+
+    
+      
+        </section>
     
      
       <!-- Copyright Footer -->
